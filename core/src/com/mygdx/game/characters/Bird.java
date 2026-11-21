@@ -54,6 +54,7 @@ public class Bird {
     public void setY(int y) {
         this.y = y;
         lastSpeedScore=0;
+        this.speed = baseSpeed;
     }
 
     public void onClick() {
